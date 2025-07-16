@@ -1,6 +1,6 @@
 # 🧮 Calulator-Using-Jac
 
-This is a basic command-line calculator built using the [JAC language](https://www.jac-lang.org). It supports four operations: addition, subtraction, multiplication, and division.
+This is a basic command-line calculator built using the [JAC language]([https://www.jac-lang.org](https://www.jac-lang.org/learn/jac_in_a_flash/)). It supports four operations: addition, subtraction, multiplication, and division.
 
 ---
 
