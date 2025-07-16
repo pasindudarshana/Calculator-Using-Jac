@@ -1,10 +1,10 @@
-# 🧮 Calculator-Using-Jac
+# Calculator-Using-Jac
 
 This is a basic command-line calculator built using the [JAC language](https://www.jac-lang.org/learn/jac_in_a_flash/). It supports four operations: addition, subtraction, multiplication, and division.
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 
 - [Python 3.8+](https://www.python.org/downloads/)
 - [pip](https://pip.pypa.io/en/stable/)
@@ -12,7 +12,7 @@ This is a basic command-line calculator built using the [JAC language](https://w
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Navigate to the Project Directory
 
@@ -57,7 +57,7 @@ jac --version
 
 ---
 
-## ▶️ Running the Calculator
+##  Running the Calculator
 
 Make sure your virtual environment is activated, then run:
 
@@ -67,7 +67,7 @@ jac run calculator.jac
 
 ---
 
-## 🧪 Example
+## Example
 
 ```
 Enter calculation (e.g., 4 + 5): 8 * 3
@@ -76,7 +76,7 @@ Result: 8.0 * 3.0 = 24.0
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Input format: `number operator number` (e.g., `7 - 2`)
 - Supported operators: `+`, `-`, `*`, `/`
@@ -84,7 +84,7 @@ Result: 8.0 * 3.0 = 24.0
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Learn Jac/
