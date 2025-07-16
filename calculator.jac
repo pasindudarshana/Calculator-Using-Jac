@@ -22,32 +22,31 @@ obj Calculator {
     }
 
     def calculate {
-        if self.operator == "+" {
-            result = self.num1 + self.num2;
-        } elif self.operator == "-" {
-            result = self.num1 - self.num2;
-        } elif self.operator == "*" {
-            result = self.num1 * self.num2;
-        } elif self.operator == "/" {
-            if self.num2 == 0 {
-                print("Error: Division by zero.");
+        if self.input_values() {
+            if self.operator == "+" {
+                result = self.num1 + self.num2;
+            } elif self.operator == "-" {
+                result = self.num1 - self.num2;
+            } elif self.operator == "*" {
+                result = self.num1 * self.num2;
+            } elif self.operator == "/" {
+                if self.num2 == 0 {
+                    print("Error: Division by zero.");
+                    return;
+                }
+                result = self.num1 / self.num2;
+            } else {
+                print("Unsupported operator. Use +, -, *, or /");
                 return;
             }
-            result = self.num1 / self.num2;
+            print(f"Result: {self.num1} {self.operator} {self.num2} = {result}");
         } else {
-            print("Unsupported operator. Use +, -, *, or /");
-            return;
+            print("Failed to get valid input.");
         }
-        print(f"Result: {self.num1} {self.operator} {self.num2} = {result}");
     }
 }
 
 with entry {
     calc = Calculator();
-
-    if calc.input_values() {
-        calc.calculate();
-    } else {
-        print("Failed to get valid input.");
-    }
+    calc.calculate();
 }
